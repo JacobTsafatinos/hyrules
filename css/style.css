@@ -1,0 +1,43 @@
+/************************************
+GENERAL
+*************************************/
+body {
+/*	background: url('../images/light_world.png') no-repeat;*/
+	background-size: 100%;
+}
+
+#map {
+	/*position: absolute;*/
+	width: 100%;
+	height: 100%;
+	/*background-repeat: no-repeat;*/
+}
+
+.light-world {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/*top: 0;
+	left: 0;*/
+}
+
+.dark-world {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/*top: 0;
+	left: 0;*/
+}
+
+.magic-mirror {
+	position: absolute;
+	z-index: 100;
+	height: 20px;
+	width: 20px;
+	top: 41%;
+	left: 49.5%;
+}
+
+.active {
+	z-index: 10;
+}
